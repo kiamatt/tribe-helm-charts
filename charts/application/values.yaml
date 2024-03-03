@@ -2,6 +2,7 @@ app:
   tolerations: []
   nodeSelector: {}
   affinity: {}
+  url:
   pod:
     port:
     healthCheckPath:
