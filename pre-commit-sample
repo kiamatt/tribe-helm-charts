@@ -1,0 +1,4 @@
+helm package charts/application --destination packages
+helm repo index .
+git add packages
+git add index.yaml

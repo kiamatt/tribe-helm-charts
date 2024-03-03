@@ -1,0 +1,28 @@
+app:
+  tolerations: []
+  nodeSelector: {}
+  affinity: {}
+  pod:
+    port:
+    healthCheckPath:
+  service:
+    name:
+    protocol: TCP
+    port:
+  resources:
+    requests:
+      memory: "256Mi"
+      cpu: "125m"
+    limits:
+      memory: "256Mi"
+      cpu: "125m"
+  secretName:
+
+image:
+  name:
+  tag:
+  url:
+
+iam:
+  service_account_role: ""
+  service_account_name: ""
