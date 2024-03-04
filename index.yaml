@@ -3,12 +3,12 @@ entries:
   application:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-03T14:16:51.221907-06:00"
+    created: "2024-03-04T07:32:05.974973-06:00"
     description: The helm chart used to deploy applications into Argo CD
-    digest: 110a227398cc4fe6c6aee53e6f709f885b9dda92d5e4ad259d9fda0c6e665683
+    digest: 3f9fca5f33c4296f441bf5ce7b79b16ac0201dd94bacd7f9c1fa35bfbf1de983
     name: application
     type: application
     urls:
     - packages/application-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-03T14:16:51.220715-06:00"
+generated: "2024-03-04T07:32:05.97364-06:00"

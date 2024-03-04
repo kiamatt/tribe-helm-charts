@@ -9,8 +9,12 @@ spec:
   routes:
     - match: Host(`{{ .Values.app.url }}`)
       kind: Rule
+      middlewares:
+        - name: {{ .Values.app.url }}-redirect-to-https
       services:
         - name: {{ .Values.app.service.name }}
           port: {{ .Values.app.service.port }}
   tls:
     secretName: {{ .Values.app.url }}
+    domains:
+      - main: {{ .Values.app.url }}
